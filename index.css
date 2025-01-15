@@ -1,0 +1,121 @@
+:root {
+    --text-color: #1a1c20;
+    --link-color: #ffffff;
+    --background-color: #eeeff1;
+    font-size: 17px; /* Set the base font size */
+}
+@font-face {
+    font-family: "Steph";
+    src: url("fonts/steph-font.ttf");
+}
+body{
+    margin: 0;
+    font-family: 'Steph', sans-serif;
+
+}
+nav{
+    height: 5rem;
+    background-color: #bfd6c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap:3rem;
+
+}
+a{
+    text-decoration: none;
+}
+#name{
+    padding-top: 8rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    
+}
+#pic img{
+    border-radius: 50%;
+    width: 20rem;
+    height: 19rem;
+    padding: 2rem 0
+}
+h2{
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
+#pro{
+    height: 10rem;
+    width: 13rem;
+    border-radius: 1.3rem;
+    padding: 1rem;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+#project{
+    text-align: center;
+}
+#project h2{
+    padding: 2rem 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    height: 80vh;
+}
+.container div{
+    width: 15rem;
+    height: 20rem;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d7dbd8;
+}
+.container div h1,p{
+    margin: 0;
+}
+#design{
+    text-align: center;
+}
+#skill{
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 50vh;
+    padding: 2rem 0;
+}
+#skill div{
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+footer{
+    text-align: center;
+
+}
+footer h2{
+    padding: 3rem 0;
+}
+footer div{
+    background-color:#909090;
+}
+footer #f{
+    padding: 3rem 0;
+}
+footer div{
+    padding: 1rem 0;
+}
